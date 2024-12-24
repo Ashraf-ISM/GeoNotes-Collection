@@ -1,0 +1,164 @@
+/* Reset some default styles for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    color: #3498db;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Main Section */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section Title Styles */
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+section h2::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #3498db;
+    bottom: -10px;
+    left: 0;
+}
+
+.note-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.note-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Note Item Heading and Content */
+.note-item h3 {
+    font-size: 1.6rem;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.note-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.note-item a {
+    font-size: 1.1rem;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #2980b9;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note-item a:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .note-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .note-item a {
+        font-size: 1rem;
+    }
+}
