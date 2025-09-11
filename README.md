@@ -187,7 +187,7 @@ The project is automatically deployed to GitHub Pages on every push to the main 
 
 **Access the live site**: [https://your-username.github.io/GeoNotes-Collection](https://your-username.github.io/GeoNotes-Collection)
 
-### 📱 **Progressive Web App**
+### 📱 **Progressive Web App**Ashraf-ISM/GeoNotes-Collection
 
 Install GeoNotes as a PWA on your device for offline access and native app experience.
 
@@ -355,24 +355,6 @@ We welcome contributions from students, educators, and professionals!
 
 ---
 
-## 🙏 Acknowledgments
-
-### 🎓 **Academic Partners**
-- **IIT Kharagpur** - Geophysics Department
-- **ISM Dhanbad** - Applied Geophysics Programme  
-- **University of Hyderabad** - Earth Sciences School
-
-### 👨‍🏫 **Faculty Contributors**
-- Dr. Example Name (IIT KGP) - Seismic Processing
-- Prof. Another Name (ISM) - Potential Fields
-- Dr. Third Name (UoH) - Inversion Methods
-
-### 🏢 **Industry Support**
-- **ONGC** - Real-world case studies
-- **GSI** - Geological survey data
-- **Schlumberger** - Software training materials
-
----
 
 ## 📄 License & Usage
 
